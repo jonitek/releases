@@ -16,4 +16,7 @@
 	<project path="hardware/mediatek" name="android_hardware_mediatek" remote="LineageOS" revision="lineage-21"/>
 	<!-- Sepolicy -->
 	<project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LineageOS" revision="lineage-21"/>
+	<!-- Updater -->
+	<remove-project name="LineageOS/android_packages_apps_Updater"/>
+	<project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="szmmzs" revision="lineage-21"/>
 </manifest>
